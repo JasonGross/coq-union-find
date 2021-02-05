@@ -45,3 +45,4 @@ Module Type DisjointSetUnion.
                                                    -> fst (find_set v (union_sets a b conn)) = fst (find_set v conn).
 
   (** the updated connectedness information of find_set does not change the representative element of any connected component *)
+End DisjointSetUnion.
